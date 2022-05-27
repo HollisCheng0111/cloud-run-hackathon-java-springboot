@@ -119,7 +119,7 @@ public class Application {
             return "R";
         }
 
-        if(myState.wasHit){
+        if (myState.wasHit) {
             return "F";
         }
 
@@ -127,7 +127,7 @@ public class Application {
         return "F";
 
 
-        // int i = new Random().nextInt(4);
+//        int i = new Random().nextInt(4);
 //        return commands[i];
     }
 
