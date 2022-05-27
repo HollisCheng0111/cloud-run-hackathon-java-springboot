@@ -113,9 +113,9 @@ public class Application {
             return "L";
         } else if (myY == 0 && myDirection.equal("N")) {
             return "L"
-        }else if(myX == maxWallEnd && myDirection.equal("E")){
+        } else if (myX == maxWallEnd && myDirection.equal("E")) {
             return "R";
-        }else if (myY == maxWallBottom && myDirection.equal("S")){
+        } else if (myY == maxWallBottom && myDirection.equal("S")) {
             return "R";
         }
 
