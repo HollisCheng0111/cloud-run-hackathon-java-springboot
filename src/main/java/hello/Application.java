@@ -76,6 +76,10 @@ public class Application {
         int myY = myState.y;
         String myDirection = myState.direction;
 
+        if(myState.wasHit){
+            return "F";
+        }
+
         //find ppl to attack
         for (int i = 0; i < allPlayerState.size(); i++) {
             PlayerState playerState = allPlayerState.get(i);
